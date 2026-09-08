@@ -30,7 +30,7 @@
         <file_encoding>${project.build.sourceEncoding}</file_encoding>
         <maven.test.skip>false</maven.test.skip>
         <java.version>1.8</java.version>
-        <tomcat.version>9.0.54</tomcat.version>
+        <tomcat.version>9.0.121</tomcat.version>
 
         <!-- Embedded dependency -->
         <olap4j-xmlaserver.version>${project.version}</olap4j-xmlaserver.version>
@@ -40,21 +40,21 @@
         <slf4j.version>1.7.32</slf4j.version>
         <jcl-over-slf4j.version>1.7.30</jcl-over-slf4j.version>
         <log4j-slf4j-impl.version>2.17.0</log4j-slf4j-impl.version>
-        <log4j-api.version>2.17.0</log4j-api.version>
-        <log4j-core.version>2.17.0</log4j-core.version>
+        <log4j-api.version>2.25.5</log4j-api.version>
+        <log4j-core.version>2.25.4</log4j-core.version>
         <log4j-to-slf4j.version>2.17.0</log4j-to-slf4j.version>
         <junit.version>4.13.1</junit.version>
         <mockito.version>1.9.5</mockito.version>
         <lombok.version>1.16.20</lombok.version>
         <guava.version>30.0-jre</guava.version>
-        <commons-lang.version>2.4</commons-lang.version>
+        <commons-lang.version>2.6</commons-lang.version>
         <commons-codec.version>1.13</commons-codec.version>
-        <commons-lang3.version>3.7</commons-lang3.version>
+        <commons-lang3.version>3.18.0</commons-lang3.version>
         <commons-pool.version>1.6</commons-pool.version>
         <commons-http-client.version>4.4.1</commons-http-client.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <commons-io.version>2.8.0</commons-io.version>
-        <fastjson.version>1.2.75</fastjson.version>
+        <fastjson.version>1.2.84</fastjson.version>
         <apache-http-component.version>4.5.13</apache-http-component.version>
         <clover.version>3.3.0</clover.version>
         <druid.version>1.2.4</druid.version>
@@ -67,14 +67,14 @@
         <spark.version>2.4.4</spark.version>
         <xerces.version>2.12.0.SP03</xerces.version>
         <xml-apis.version>1.4.01</xml-apis.version>
-        <jackson.version>2.11.4</jackson.version>
+        <jackson.version>2.18.8</jackson.version>
         <alibaba.ttl.version>2.11.5</alibaba.ttl.version>
         <spring-boot.version>2.3.9.RELEASE</spring-boot.version>
-        <spring.version>5.2.15.RELEASE</spring.version>
+        <spring.version>6.2.19</spring.version>
         <mysql.connector.version>8.0.24</mysql.connector.version>
-        <hibernate.validator.version>6.1.7.Final</hibernate.validator.version>
+        <hibernate.validator.version>9.1.3.Final</hibernate.validator.version>
         <snakeyaml.version>1.26</snakeyaml.version>
-        <netty.version>4.1.68.Final</netty.version>
+        <netty.version>4.1.136.Final</netty.version>
 
         <!-- Sonar -->
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
@@ -321,7 +321,7 @@
             <dependency>
                 <groupId>org.postgresql</groupId>
                 <artifactId>postgresql</artifactId>
-                <version>42.2.13</version>
+                <version>42.7.12</version>
             </dependency>
 
             <!-- Semantic-MDX Modules -->
@@ -507,7 +507,7 @@
             <dependency>
                 <groupId>org.springframework.security</groupId>
                 <artifactId>spring-security-web</artifactId>
-                <version>5.4.3</version>
+                <version>6.5.11</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.security</groupId>
